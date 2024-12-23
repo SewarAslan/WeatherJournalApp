@@ -1,6 +1,6 @@
 // OpenWeatherMap API configuration
 const baseUrl = 'https://api.openweathermap.org/data/2.5/weather';
-const apiKey = 'e062e857e680c88d853019cc71231999'; // Replace with your valid API key
+const apiKey = 'e062e857e680c88d853019cc71231999'; 
 
 // Function to fetch weather data from the OpenWeatherMap API
 async function getWeather(zip, country, apiKey) {
